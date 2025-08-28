@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjowd0ymmhr2a"]
+
+[ext_resource type="Script" uid="uid://h6kd6w3mhx2a" path="res://hello_world.gd" id="1_yoto3"]
+
+[node name="InstructionsScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_right = 1314.0
+offset_bottom = 899.0
+theme_override_font_sizes/bold_italics_font_size = 0
+theme_override_font_sizes/italics_font_size = 0
+theme_override_font_sizes/mono_font_size = 0
+theme_override_font_sizes/normal_font_size = 50
+theme_override_font_sizes/bold_font_size = 0
+text = "To complete this assignment: 
+1. Find the file \"HelloWorld.gd\" in the file browser panel in the lower left of your screen
+2. In the script view, write the line of code: print(\"Hello, World\") in the indicated position
+3. Save your work (File > Save)
+4. Press the \"Play\" button in the upper right of the screen
+5. You should see the message Hello, World appear in the console below
+6. Return to GitHub Desktop to commit and push your work
+7. You are done with homework 1!"
+script = ExtResource("1_yoto3")
